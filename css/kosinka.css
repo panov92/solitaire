@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+
+body, html, #app {
+	height: 100vh;
+	margin: 0;
+}
+
+img{
+	display: block;	
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+td{
+	vertical-align: top;
+}
+
+table{
+	margin: auto;
+}
+
+div{
+	display: block;
+	margin: 5px;
+}
+
+
+.center{
+	margin: auto;
+}
+
+
+.card-on-card{	
+	margin-top: -80px;
+}
+
+.active-card{
+	cursor: pointer;
+}
+
+.desk{
+	background-image: url('../img/fon.jpg');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+
+.none{
+	display: none;
+}
